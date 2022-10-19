@@ -24,12 +24,12 @@ public class App {
     
     if(a != b && b != c && a != c)
     { 
-      return "es un triangolo escaleno"; 
+      return "es un triangulo escaleno"; 
     }
     
     if(esTrianguloPitagorico( a, b,  c))
     {
-      return "es un triangolo pitagorico";
+      return "es un triangulo pitagorico";
     }
     
     return "error no es un triangulo";
